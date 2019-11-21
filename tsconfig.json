@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "module": "es2015",
+      "target": "es5",
+      "lib": ["dom", "es2015"],
+      "sourceMap": true,
+      "moduleResolution": "node"
+    },
+    "include": ["./**/*.ts"]
+  }
+  
