@@ -8,7 +8,7 @@ const screen = new SVGScreen(app)
 const limit = 50
 for (let i = 0; i < limit; i++) {
   for (let j = 0; j < limit; j++) {
-    const title = ((i + 1) * (j + 1)).toString()
+    const title = (i * 10 + j).toString()
     screen.add(
       new ItemNode({
         title,
